@@ -146,6 +146,8 @@
         height: 200px;
         background: rgb(151, 142, 142);
         border-radius: 50%;
+        padding-top:auto;
+        margin: auto;
       }
     .team {
       background-color: rgb(214, 214, 214);
@@ -167,7 +169,6 @@
       width: 6%;
       align: center;
       border: 2px solid #c2bfbf;
-      margin-bottom: 24px;
     }
     .mota{
       color: black;
@@ -175,13 +176,39 @@
       padding-top: 25px;
       padding-bottom: 79px;
     }
-    .avatar{
+    .noidung{
     width: 1120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding-right: 40px;
     padding-left: 40px;
+    }
+    .noidung .cot2, cot3 , cot4 {
+      margin-top: 0px;
+    }
+    .noidung .name{
+      color: black;
+      padding-top: 42px;
+      padding-bottom: 15px;
+    }
+    .noidung .name1 {
+      color: black;
+      padding-top: 42px;
+    }
+    .job {
+      color: rgb(65, 132, 231);
+      font-size: 15px;
+      font-weight: bold;
+      padding-top: 16px;
+    }
+    p {
+      text-align: center;
+      color: black;
+      font-size: 12px;
+      padding-top: 32px;
+      padding-bottom: 35px;
     }
     }
       
