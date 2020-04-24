@@ -239,3 +239,145 @@ div#my-div {
   padding-top: 32px;
   padding-bottom: 35px;
 }
+
+.skill {
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 100%;
+  height: 655px;
+}
+
+.skill .content {
+  font-size: 30px;
+  padding-top: 120px;
+  padding-bottom: 22px;
+}
+
+.skill hr {
+  color: #908c92;
+  size: 7px;
+  width: 3%;
+  border: 2px solid #908c92;
+  border-radius: 1px;
+}
+
+.skill .mota {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.skill .images {
+  width: 1100px;
+  height: 212px;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 125px;
+}
+
+.skill p {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 35px;
+}
+
+.dautu {
+  text-align: center;
+  width: 100%;
+  height: 1425px;
+  background-color: #fad287;
+  color: black;
+}
+
+.dautu .content {
+  font-size: 30px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.dautu hr {
+  color: #e4b359;
+  size: 7px;
+  width: 4%;
+  border: 2px solid #e4b359;
+  border-radius: 1px;
+}
+
+.dautu p {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.dautu .menu {
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+.dautu ul.danhsach {
+  display: flex;
+  list-style: none;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dautu ul.danhsach li {
+  width: 85px;
+  height: 40px;
+  background-color: #eec476;
+  padding: unset;
+  margin: auto;
+}
+
+.dautu ul.danhsach li a {
+  width: 40px;
+  text-transform: uppercase;
+  background-color: #eec476;
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.dautu ul.danhsach li a:hover {
+  background-color: white;
+}
+
+.dautu .images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: 780px;
+  padding-bottom: 65px;
+  padding: 65px;
+}
+
+.dautu .lap1, .dautu .lap2, .dautu .lap3, .dautu .lap4 {
+  width: 540px;
+  height: 340px;
+}
+
+.dautu .lap3, .dautu .lap4 {
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+
+.dautu .images p {
+  font-size: 20px;
+}
+
+.dautu button {
+  width: 295px;
+  height: 68px;
+  color: white;
+  background-color: #7dc27d;
+  font-size: 15px;
+  border: none;
+  border-bottom: 4px solid #20683b;
+  border-radius: 4px;
+}
